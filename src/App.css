@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+
+.header-menu {
+    
+    align-items: center;
+    display: flex;
+   
+/*   
+   padding-left:200px; */
+    position: relative;
+    /* border:1px solid black; */
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    list-style: none;
+    font-weight: 400px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Line-height: 30px;
+    color: rgb(57, 60, 64);
+    /* margin-left: 300px; */
+    /* padding-left: 130px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link1-dropdown-menu:hover {
+    color:#80c1f7;
+}
+.hrStyle{
+  border: 1px solid #80c1f7;
+}
+.link1-dropdown-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(57, 60, 64);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+    text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-bar-menu-content {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+    list-style-type: none;
 }
+
+.title1-menu {
+    color: #80c1f7;
+}
+
+.title2-menu {
+    color: rgb(57, 60, 64);
+}
+
+.title3-menu {
+    color: rgb(57, 60, 64);
+}
+
+.title3-menu:hover {
+    color: #80c1f7;
+}
+
+.dropdown-content {
+  position: absolute;
+
+width: auto;
+height: auto;
+    border: 2px solid  #80c1f7;
+    
+}
+.show{
+display:block;
+position: absolute;
+border:1px solid #80c1f7;
+}
+.Hidd{
+    display:none;
+
+}
+/*
+.title3-menu:hover .dropdown-content {
+    display: none;
+}*/
